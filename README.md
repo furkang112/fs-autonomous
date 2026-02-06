@@ -23,14 +23,42 @@ The autonomous system is designed with a modular architecture:
 ```
 fs-autonomous/
 │
-├── docs/ # Documentation and system overview
-├── perception/ # Sensor processing and cone detection
-├── localization/ # State estimation and sensor fusion
-├── planning/ # Path and trajectory planning
-├── control/ # Vehicle control algorithms
-├── simulation/ # Gazebo & RViz simulation files
-├── utils/ # Helper functions
-└── tests/ # Unit and integration tests
+├── 📁 docs/
+│ ├── 📄 system_overview.md
+│ ├── 📄 architecture.md
+│ └── 📄 competition_rules.md
+│
+├── 📁 perception/
+│ ├── 📁 camera/
+│ ├── 📁 lidar/
+│ └── 📁 cone_detection/
+│
+├── 📁 localization/
+│ ├── 📁 ekf/
+│ ├── 📁 slam/
+│ └── 📁 sensor_fusion/
+│
+├── 📁 planning/
+│ ├── 📁 path_planning/
+│ └── 📁 trajectory/
+│
+├── 📁 control/
+│ ├── 📁 steering/
+│ ├── 📁 speed/
+│ └── 📁 controllers/
+│
+├── 📁 simulation/
+│ ├── 📁 gazebo/
+│ └── 📁 rviz/
+│
+├── 📁 utils/
+│ └── 📄 helpers.py
+│
+├── 📁 tests/
+│
+├── 📄 README.md
+├── 📄 requirements.txt
+└── 📄 .gitignore
 ```
 
 ## Technologies

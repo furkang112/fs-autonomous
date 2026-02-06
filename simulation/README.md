@@ -69,21 +69,21 @@ The simulation environment is the cornerstone of our development process. It pro
 │              SIMULATION-FIRST WORKFLOW                   │
 ├──────────────────────────────────────────────────────────┤
 │                                                          │
-│  1. Design Algorithm      → Whiteboard & Math           │
+│  1. Design Algorithm      → Whiteboard & Math            │
 │         ↓                                                │
-│  2. Implement in Sim      → Write code                  │
+│  2. Implement in Sim      → Write code                   │
 │         ↓                                                │
-│  3. Unit Test             → Test components             │
+│  3. Unit Test             → Test components              │
 │         ↓                                                │
-│  4. Integration Test      → Full system test            │
+│  4. Integration Test      → Full system test             │
 │         ↓                                                │
-│  5. Edge Case Testing     → Break it safely             │
+│  5. Edge Case Testing     → Break it safely              │
 │         ↓                                                │
-│  6. Parameter Tuning      → Optimize performance        │
+│  6. Parameter Tuning      → Optimize performance         │
 │         ↓                                                │
-│  7. Hardware-in-Loop      → Real sensors, sim physics   │
+│  7. Hardware-in-Loop      → Real sensors, sim physics    │
 │         ↓                                                │
-│  8. Real Vehicle Test     → Deploy with confidence      │
+│  8. Real Vehicle Test     → Deploy with confidence       │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -123,13 +123,13 @@ The simulation environment is the cornerstone of our development process. It pro
 │  └──────────────────┘              └────────┬─────────┘             │
 └─────────────────────────────────────────────┼───────────────────────┘
                                               │
-┌─────────────────────────────────────────────▼──────────────────────┐
-│                    GAZEBO SIMULATION ENGINE                        │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐              │
-│  │   Physics    │  │   Rendering  │  │   Sensors    │              │
-│  │   (ODE)      │  │   (OGRE)     │  │   (Virtual)  │              │
-│  └──────────────┘  └──────────────┘  └──────────────┘              │
-└────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────▼───────────────────────┐
+│                    GAZEBO SIMULATION ENGINE                         │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐               │
+│  │   Physics    │  │   Rendering  │  │   Sensors    │               │
+│  │   (ODE)      │  │   (OGRE)     │  │   (Virtual)  │               │
+│  └──────────────┘  └──────────────┘  └──────────────┘               │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ### File Organization

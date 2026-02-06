@@ -20,8 +20,7 @@ The autonomous system is designed with a modular architecture:
 
 ## Repository Structure
 
-'''
-
+```
 fs-autonomous/
 │
 ├── docs/ # Documentation and system overview
@@ -32,9 +31,7 @@ fs-autonomous/
 ├── simulation/ # Gazebo & RViz simulation files
 ├── utils/ # Helper functions
 └── tests/ # Unit and integration tests
-
-
-'''
+```
 
 ## Technologies
 

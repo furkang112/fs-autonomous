@@ -18,9 +18,9 @@ The autonomous system is designed with a modular architecture:
 - **Control**: Controls steering and speed
 - **Simulation**: Testing and validation in simulation
 
----
-
 ## Repository Structure
+
+---
 
 fs-autonomous/
 │

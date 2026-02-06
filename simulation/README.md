@@ -37,14 +37,14 @@ The simulation environment is the cornerstone of our development process. It pro
 ┌─────────────────────────────────────────────────────────────┐
 │                    SIMULATION ADVANTAGES                    │
 ├─────────────────────────────────────────────────────────────┤
-│  ✓ Zero Risk         - No vehicle damage                   │
+│  ✓ Zero Risk         - No vehicle damage                    │
 │  ✓ Reproducible      - Same scenario every time             │
-│  ✓ Fast Iteration    - Test in minutes vs hours            │
-│  ✓ Edge Cases        - Test dangerous scenarios safely     │
-│  ✓ 24/7 Testing      - No track access needed              │
-│  ✓ Cost Effective    - Reduce hardware wear                │
-│  ✓ Parallel Dev      - Multiple devs, one codebase         │
-│  ✓ CI/CD Ready       - Automated testing pipeline          │
+│  ✓ Fast Iteration    - Test in minutes vs hours             │
+│  ✓ Edge Cases        - Test dangerous scenarios safely      │
+│  ✓ 24/7 Testing      - No track access needed               │
+│  ✓ Cost Effective    - Reduce hardware wear                 │
+│  ✓ Parallel Dev      - Multiple devs, one codebase          │
+│  ✓ CI/CD Ready       - Automated testing pipeline           │
 └─────────────────────────────────────────────────────────────┘
 ```
 

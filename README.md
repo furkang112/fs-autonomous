@@ -1,4 +1,4 @@
-# Formula Student Autonomous Systems
+# 🏎️Formula Student Autonomous Systems
 
 This repository contains the autonomous driving software developed
 by the team for Formula Student Driverless / Autonomous competitions.
@@ -18,7 +18,7 @@ The autonomous system is designed with a modular architecture:
 - **Control**: Controls steering and speed
 - **Simulation**: Testing and validation in simulation
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 fs-autonomous/

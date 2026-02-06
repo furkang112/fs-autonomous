@@ -20,7 +20,7 @@ The autonomous system is designed with a modular architecture:
 
 ## Repository Structure
 
----
+'''
 
 fs-autonomous/
 │
@@ -34,7 +34,7 @@ fs-autonomous/
 └── tests/ # Unit and integration tests
 
 
----
+'''
 
 ## Technologies
 
